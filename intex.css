@@ -4,3 +4,26 @@
     padding-left: 30px;
     padding-top: 20px;
 }
+#nav-bar li {
+    display: inline;
+    position: relative;
+    float: right;
+    margin: 15px;
+    bottom: 80px;
+}
+h1 {
+    text-align: center;
+    position: relative;
+    padding-left: 250px;
+    width: auto;
+}
+#form {
+    margin: auto;
+    width: 40%;
+    border: 3px;
+    padding: 5px;
+}
+#submit {
+    display: block;
+    margin: 10px;
+}
