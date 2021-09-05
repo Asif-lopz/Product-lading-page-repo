@@ -1,4 +1,10 @@
-#header-img {
+#header {
+    display: flex;
+    flex-direction: column;
+    background-color: gray;
+    justify-content: space-between;
+}
+/*#header-img {
     width: 100px;
     height: auto;
     padding-left: 30px;
@@ -15,7 +21,7 @@ h1 {
     text-align: center;
     position: relative;
     padding-left: 250px;
-    width: auto;
+    width: 500px;
 }
 #form {
     margin: auto;
@@ -25,5 +31,27 @@ h1 {
 }
 #submit {
     display: block;
-    margin: 10px;
+    margin-top: 10px;
+}*/
+#header-img {
+    display: flex;
+    width: 150px;
+    height: auto;
+    margin-left: 10px;
+}
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+#nav-bar > ul {
+    display: flex;
+    justify-content: row;
+    justify-content: space-around;
+    width: 300px;
+    height: auto;
+}
+#form {
+    display: flex;
+    justify-content: center;
 }
