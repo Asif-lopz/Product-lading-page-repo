@@ -1,28 +1,49 @@
 #header {
     display: flex;
     flex-direction: column;
-    background-color: gray;
+    background-color: rgb(224, 210, 210);
 }
 #header-img {
     display: flex;
     width: 150px;
     height: auto;
-    margin-left: 10px;
+    margin-left: 30px;
 }
-h1 {
+#header h1 {
     display: flex;
     justify-content: center;
     align-content: center;
+    position: relative;
+    bottom: 50px;
 }
 
-#nav-bar > ul {
+#nav-bar ul {
     display: flex;
     justify-content: row;
     justify-content: space-around;
-    width: 300px;
-    height: auto;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position:relative;
+    bottom: 100px;
+    list-style-type: none;
+    margin-right: 50px;
 }
+#nav-bar li{
+    margin-right: 30px;
+}
+#nav-bar #nav-link {
+    text-decoration: none;
+}
+
 #form {
     display: flex;
     justify-content: center;
+}
+#form #email {
+    position: relative;
+    bottom: 40px;
+}
+#form #submit {
+    position: relative;
+    right: 150px;
 }
