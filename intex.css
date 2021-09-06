@@ -14,7 +14,7 @@
     justify-content: center;
     align-content: center;
     position: relative;
-    bottom: 50px;
+    bottom: 100px;
 }
 
 #nav-bar ul {
@@ -33,6 +33,24 @@
 }
 #nav-bar #nav-link {
     text-decoration: none;
+    color: black;
+}
+#nav-bar #nav-link:link {
+    color: black;
+}
+  
+#nav-bar #nav-link:visited {
+    color: brown;
+}
+  
+#nav-bar #nav-link:hover {
+    text-decoration: underline;
+    color: rgb(0, 3, 5);
+    font-size: 120%;
+}
+  
+#nav-bar #nav-link:active {
+    color: blue;
 }
 
 #form {
@@ -41,9 +59,10 @@
 }
 #form #email {
     position: relative;
-    bottom: 40px;
+    bottom: 90px;
 }
 #form #submit {
     position: relative;
     right: 150px;
+    bottom: 50px;
 }
