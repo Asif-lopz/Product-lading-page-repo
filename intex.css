@@ -84,6 +84,7 @@ body {
     display: block;
     margin-top: 10px;
     padding: 3px 5px;
+    font-size: larger;
 }
 #first {
     display: flex;
@@ -156,6 +157,134 @@ body {
 .container {
     margin: 30px;
     margin-left: 20px;
-    background-color: rgb(211, 208, 208);
     text-align: center;
+    border: 1px solid black;
+    padding-bottom: 10px;
+}
+.first-box {
+    background-color: #ddd;
+    padding: 20px 0 5px 0;
+    margin-bottom: 30px;
+    font-size: large;
+    margin-top: 1px;
+}
+.container h3 {
+    font-size: x-large;
+    color: green;
+}
+.container input[type=button] {
+    background-color: rgba(252, 252, 0, 0.966);
+    margin: 2px 3px 2px 3px;
+    padding: 5px 10px 5px 10px;
+}
+.footer {
+    background-color: #ddd;
+}
+.copy{
+    text-align: right;
+    margin-right: 20px;
+}
+#nav-foot ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 20px;
+    list-style-type: none;
+}
+#nav-foot li{
+    margin-left: 30px;
+}
+#nav-foot a{
+    text-decoration: none;
+    color: black;
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+    }
+    #header #header-img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        height: 200px;
+    }
+    #header-img {
+        width: 250;
+    }
+    #header #nav-bar {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+        transform: translate(-12%, 90%);
+    }
+    #header #nav-bar li {
+        margin-left: 50px;
+    }
+    .main {
+        margin-bottom: 1px;
+        box-sizing: border-box;
+    }
+    .main h1{
+        font-size: 30px;
+    }
+    #form {
+        margin-right: 30px;
+    }
+    .main #form #email {
+        width: 100%;
+        padding: 12px;
+        margin-right: 30px;
+    }
+    .main #form #submit {
+        margin-left: 60px;
+    }
+    #first {
+        display: block;
+    }
+    .materials img {
+        float: none;
+        display: block;
+        margin-left: 90px;
+        margin-right: auto;
+        width: 50%;
+    }
+    .materials, address{
+        text-align: center;
+        margin-right: 40px;
+    }
+    .Shipping img {
+        float: none;
+        display: block;
+        margin-left: 90px;
+        margin-right: auto;
+        width: 50%;
+    }
+    .Shipping, address{
+        text-align: center;
+        margin-right: 40px;
+    }
+    .Quality img {
+        float: none;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+    .Quality, address{
+        text-align: center;
+        margin-right: 40px;
+    }
+    #third {
+        display: block;
+        margin-left: 20px;
+    }
+    .container, p{
+        padding: 5px 10px 5px 10px;
+    }
 }
