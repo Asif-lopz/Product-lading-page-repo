@@ -62,40 +62,80 @@ body {
     width:600px;
     height: 400px;
 }
+.main {
+    text-align: center;
+    margin-bottom: 50px;
+}
 .main h1 {
     margin: 250px 0 50px 0;
     text-align: center;
 }
 #form {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    flex-direction: column;
+    display: inline-block;
+    text-align: left;
 }
-#form #email {
-    margin: 0 300px 0 300px;
-    padding: 2px 4px;
+.main #form #email {
+    width: 100%;
+    padding: 6px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
 }
-#form #submit {
-    margin: 10px 400px 0 400px;
-    padding: 2px 4px;
+.main #form #submit {
+    display: block;
+    margin-top: 10px;
+    padding: 3px 5px;
 }
 #first {
     display: flex;
     flex-direction: column;
-    margin: 5px 0 5px 100px;
+    margin: 200px 0 0 100px;
+}
+.materials {
+    margin-bottom: 30px;
 }
 .materials img {
     width: 150px;
     height: auto;
+    margin: 10px 30px 30px 0;
+    float: left;
+}
+.materials h2 {
+    display: inline;
+    margin-bottom: 1px;
+}
+.materials h2, p {
+    margin-top: 1px;
+}
+.Shipping {
+    margin-bottom: 30px;
 }
 .Shipping img {
     width: 150px;
     height: auto;
+    margin: 10px 30px 30px 0;
+    float: left;
+}
+.Shipping h2 {
+    margin-bottom: 1px;
+}
+.Shipping h2, p {
+    margin-top: 1px;
+}
+.Quality {
+    margin-bottom: 30px;
 }
 .Quality img {
     width: 150px;
     height: auto;
+    margin: 10px 30px 30px 0;
+    float: left;
+}
+.Quality h2 {
+    display: inline;
+    margin-bottom: 1px;
+}
+.Quality h2, p {
+    margin-top: 1px;
 }
 #third {
     display: grid;
@@ -103,10 +143,19 @@ body {
     justify-content: space-evenly;
     align-content: center;
 }
+#second {
+    margin: 150px 0 100px 0;
+}
 #video {
     display: flex;
     justify-content: center;
     align-content: center;
     margin: 10px;
     padding: 10px;
+}
+.container {
+    margin: 30px;
+    margin-left: 20px;
+    background-color: rgb(211, 208, 208);
+    text-align: center;
 }
