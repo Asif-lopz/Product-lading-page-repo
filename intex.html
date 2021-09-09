@@ -1,3 +1,12 @@
+<!-- 
+
+Hello Camper!
+
+Please read the README below in the JS Editor before beginning. Feel free to delete this message once you have read it. Good luck and Happy Coding! 
+
+- The freeCodeCamp Team 
+
+-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,9 +21,9 @@
         <img src="https://cdn.freebiesupply.com/logos/large/2x/master-4-logo-png-transparent.png" alt="master" id="header-img">
         <nav id="nav-bar">
             <ul>
-                <li><a href="#first" id="nav-link">Features</a></li>
-                <li><a href="#second" id="nav-link">How Is Work</a></li>
-                <li><a href="#third" id="nav-link">Price</a></li>
+                <li><a href="#first" class="nav-link">Features</a></li>
+                <li><a href="#second" class="nav-link">How Is Work</a></li>
+                <li><a href="#third" class="nav-link">Price</a></li>
             </ul>
         </nav>
         
@@ -22,8 +31,8 @@
     <div class="main">
         <h1>Handcrafted, home-made masterpieces</h1>
         <form action="https://www.freecodecamp.org/email-submit" id="form">
-            <input type="email" id="email" placeholder="Enter Your E-mail" required>
-            <input type="submit" id="submit" value="Get Started">
+            <input type="email" id="email" placeholder="Enter Your E-mail" name="email" required>
+            <input type="submit" id="submit"  value="Get Started">
         </form>
     </div>
     <section id="first">
@@ -50,10 +59,8 @@
         </div>
     </section>
     <section id="second">
-        <div id="video">
-            <iframe src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframesrc>
-                
-            </iframe>
+        <div class="video">
+            <iframe id="video" src="https://www.youtube.com/embed/tgbNymZ7vqY" ></iframe>
         </div>
     </section>
     <section id="third">

@@ -35,25 +35,25 @@ body {
 #nav-bar li{
     margin-right: 30px;
 }
-#nav-bar #nav-link {
+#nav-bar .nav-link {
     text-decoration: none;
     color: black;
 }
-#nav-bar #nav-link:link {
+#nav-bar .nav-link:link {
     color: black;
 }
   
-#nav-bar #nav-link:visited {
+#nav-bar .nav-link:visited {
     color: brown;
 }
   
-#nav-bar #nav-link:hover {
+#nav-bar .nav-link:hover {
     text-decoration: underline;
     color: rgb(0, 3, 5);
     font-size: 120%;
 }
   
-#nav-bar #nav-link:active {
+#nav-bar .nav-link:active {
     color: blue;
 }
 
@@ -146,13 +146,15 @@ body {
 }
 #second {
     margin: 150px 0 100px 0;
-}
-#video {
     display: flex;
     justify-content: center;
     align-content: center;
     margin: 10px;
     padding: 10px;
+}
+#video {
+    width: 600px;
+    height: 400px;
 }
 .container {
     margin: 30px;
@@ -208,7 +210,7 @@ body {
     }
     #header #header-img{
         display: block;
-        margin-left: auto;
+        margin-left: 150px;
         margin-right: auto;
         width: 50%;
         height: 200px;
@@ -221,7 +223,7 @@ body {
         margin-left: auto;
         margin-right: auto;
         float: none;
-        transform: translate(-12%, 90%);
+        transform: translate(-19%, 90%);
     }
     #header #nav-bar li {
         margin-left: 50px;
@@ -256,7 +258,7 @@ body {
     }
     .materials, address{
         text-align: center;
-        margin-right: 40px;
+        margin-right: 70px;
     }
     .Shipping img {
         float: none;
@@ -267,18 +269,18 @@ body {
     }
     .Shipping, address{
         text-align: center;
-        margin-right: 40px;
+        margin-right: 70px;
     }
     .Quality img {
         float: none;
         display: block;
-        margin-left: auto;
+        margin-left: 90px;
         margin-right: auto;
         width: 50%;
     }
     .Quality, address{
         text-align: center;
-        margin-right: 40px;
+        margin-right: 70px;
     }
     #third {
         display: block;
